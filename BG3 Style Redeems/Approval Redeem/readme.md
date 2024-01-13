@@ -81,4 +81,4 @@ This is my slightly modified version and it also assumes that you have Mix It Up
 
     ![redeem example screenshot](image-3.png)
 
-Note: If you create this as a command, you probably should set a cooldown! I didn't go over that here!
+Note: If you create this as a command, you probably should set a cool down! I didn't go over that here!
