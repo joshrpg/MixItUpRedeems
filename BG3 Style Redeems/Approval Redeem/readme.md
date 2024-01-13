@@ -66,7 +66,8 @@ This is my slightly modified version and it also assumes that you have Mix It Up
     <body>
         <div>
             <div class="diamond"><img src="$targetuseravatar" /></div>
-            <div class="username">$userdisplayname approves</div>
+            <!-- Change "approves" to "disapproves" for the disapprove redeem/command -->
+            <div class="username">$userdisplayname approves.</div>
         </div>
     </body>
     ```
@@ -80,5 +81,7 @@ This is my slightly modified version and it also assumes that you have Mix It Up
 8. You should end up with something like this:
 
     ![redeem example screenshot](image-3.png)
+
+9. Repeat this for the disapproval redeem/command and change `<div class="username">$userdisplayname approves.</div>` to `<div class="username">$userdisplayname disapproves.</div>`
 
 Note: If you create this as a command, you probably should set a cool down! I didn't go over that here!
