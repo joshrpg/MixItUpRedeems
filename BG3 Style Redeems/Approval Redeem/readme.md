@@ -67,7 +67,7 @@ This is my slightly modified version and it also assumes that you have Mix It Up
         <div>
             <div class="diamond"><img src="$targetuseravatar" /></div>
             <!-- Change "approves" to "disapproves" for the disapprove redeem/command -->
-            <div class="username">$userdisplayname approves.</div>
+            <div class="username">$userdisplayname approves</div>
         </div>
     </body>
     ```
@@ -78,10 +78,12 @@ This is my slightly modified version and it also assumes that you have Mix It Up
 
     ![Screen Position and animation settings screenshot](image-2.png)
 
+    ***Note:*** I have mine set my **Top Pixel Position** set to **100**, you may want to have it set to **0**.
+
 8. You should end up with something like this:
 
     ![redeem example screenshot](image-3.png)
 
 9. Repeat this for the disapproval redeem/command and change `<div class="username">$userdisplayname approves.</div>` to `<div class="username">$userdisplayname disapproves.</div>`
 
-Note: If you create this as a command, you probably should set a cool down! I didn't go over that here!
+***Note:*** If you create this as a command, you probably should set a cool down! I didn't go over that here!
